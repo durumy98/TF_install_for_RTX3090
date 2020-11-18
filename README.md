@@ -22,7 +22,7 @@ https://code.visualstudio.com/
 
 - tensorflow-gpu 설치 : pip install tf-nightly-gpu==2.5.0.dev20201102
 
-- tensorflow-gpu 설치 : conda install numpy (pip로 설치시 에러발생됨)
+- Numpy 설치 : conda install numpy (pip로 설치시 에러발생됨)
 
 - pytorch 설치 할 경우 : conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
 
