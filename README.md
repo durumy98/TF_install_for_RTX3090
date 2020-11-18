@@ -18,7 +18,7 @@ https://code.visualstudio.com/
 
 - Anaconda 설치
 
-- 가상환경 생성 : conda create -n env_name python=3.8 -> conda activate env_name
+- 가상환경 생성 : conda create -n TF_test_RTX3090 python=3.8 -> conda activate TF_test_RTX3090
 
 - tensorflow-gpu 설치 : pip install tf-nightly-gpu==2.5.0.dev20201102
 
