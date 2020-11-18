@@ -21,6 +21,7 @@ Anaconda 설치
 가상환경 생성 : conda create -n env_name python=3.8 -> conda activate env_name
 
 tensorflow-gpu 설치 : pip install tf-nightly-gpu==2.5.0.dev20201102
+tensorflow-gpu 설치 : conda install numpy (pip로 설치시 에러발생됨)
 
 conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
 
