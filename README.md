@@ -1,4 +1,4 @@
-# TensorFow install for GTX3090
+# TensorFow install for RTX3090
 
 ## 1. Download and install VSCODE 
 
