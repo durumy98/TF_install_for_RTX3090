@@ -40,5 +40,4 @@ print((a + b).numpy())
 ```
 
 ## References
-- https://github.com/solaris33/deep-learning-tensorflow-book-code
-- https://cannonhiter.tistory.com/2
+- https://koos808.tistory.com/41
