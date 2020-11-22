@@ -42,3 +42,5 @@ print((a + b).numpy())
 
 ## References
 - https://koos808.tistory.com/41
+
+- https://blog.naver.com/PostView.nhn?blogId=sogangori&logNo=222114918669 (need to be checked)
