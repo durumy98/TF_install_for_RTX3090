@@ -24,6 +24,10 @@ https://code.visualstudio.com/
 
 - Numpy 설치 : conda install numpy (pip로 설치시 에러발생됨)
 
+- Cuda 설치 :   (cuda 10.0 버전)
+
+- Keras 설치 : pip install keras, import keras
+
 - pytorch 설치 할 경우 : conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
 
 
