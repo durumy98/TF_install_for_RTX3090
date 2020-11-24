@@ -26,7 +26,7 @@ https://code.visualstudio.com/
 
 - Cuda 설치 :   (cuda 10.0 버전)
 
-- Keras 설치 : pip install keras, import keras
+- Keras 설치 : pip install keras, import keras (keras 추가설치 후, keras lib 사용시 에러있음)
 
 - pytorch 설치 할 경우 : conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
 
