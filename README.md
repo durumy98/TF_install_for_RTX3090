@@ -27,6 +27,8 @@ https://code.visualstudio.com/
 - Cuda 설치 :   (cuda 10.0 버전)
 
 - Keras 설치 : pip install keras, import keras (keras 추가설치 후, keras lib 사용시 에러있음)
+- 아래 instruction으로 에러 해결 확인필요
+https://velog.io/@skyfishbae/RTX3090-2%EB%8C%80-Ubuntu-18.04-%EB%94%A5%EB%9F%AC%EB%8B%9D-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95-2-Anaconda-Tensorflow-keras-%EC%84%A4%EC%B9%98
 
 - pytorch 설치 할 경우 : conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
 
