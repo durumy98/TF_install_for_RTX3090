@@ -10,27 +10,23 @@ https://code.visualstudio.com/
 
 - VGA : RTX 3090
 
-- VGA Driver : 456.43
+- VGA Driver : 456.81
 
-- Cuda 설치 :   (cuda 11.0 업데이트된 최신버전)
+- Cuda 설치 :   (cuda 11.1 업데이트된 최신버전)
 
-- Cudnn 설치 : cudnn-11.0-windows-x64-v8.0.3.33(cudnn)
+- Cudnn 설치 : cudnn-11.1-windows-x64-v8.0.4.30(cudnn)
 
 - Anaconda 설치
 
 - 가상환경 생성 : conda create -n TF_test_RTX3090 python=3.8 -> conda activate TF_test_RTX3090
 
-- tensorflow-gpu 설치 : pip install tf-nightly-gpu==2.5.0.dev20201102
+- tensorflow-gpu 설치 : pip install tf-nightly-gpu==2.5.0.dev20210107 
 
-- Numpy 설치 : conda install numpy (pip로 설치시 에러발생됨)
+- Numpy 설치 : conda install numpy (pip로 설치시 에러발생된적 있음)
 
-- Cuda 설치 :   (cuda 10.0 버전)
+- Keras 설치 : pip install keras (nightly 버전으로 keras 별도설치)
 
-- Keras 설치 : pip install keras, import keras (keras 추가설치 후, keras lib 사용시 에러있음)
-- 아래 instruction으로 에러 해결 확인필요
-https://velog.io/@skyfishbae/RTX3090-2%EB%8C%80-Ubuntu-18.04-%EB%94%A5%EB%9F%AC%EB%8B%9D-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95-2-Anaconda-Tensorflow-keras-%EC%84%A4%EC%B9%98
-
-- pytorch 설치 할 경우 : conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
+- pytorch 설치 할 경우 : conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch
 
 
 ## 5. Simple test code
@@ -46,7 +42,10 @@ b = tf.constant(32)
 print((a + b).numpy())
 ```
 
-## References
-- https://koos808.tistory.com/41
+```
+import tensorflow as tf  
+import numpy as np  
+from tensorflow import keras  
+model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
+```
 
-- https://blog.naver.com/PostView.nhn?blogId=sogangori&logNo=222114918669 (need to be checked)
